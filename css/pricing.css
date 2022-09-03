@@ -5,7 +5,7 @@
     justify-content: space-between;
 }
 .listitem-tarif {
-    padding: 12px 144px 11px 144px;
+    padding: 12px 0;
     font-size: 20px;
     text-align: center;
     color: #FFFFFF;
@@ -16,7 +16,7 @@
     font-style: normal;
 }
 .listitem-price {
-    padding: 26px 135px 33px 144px;
+    padding: 26px 0;
     font-size: 35px;
     text-align: center;
     color: #FFFFFF;
@@ -27,7 +27,7 @@
     font-style: normal;
 }
 .listitem-time {
-    padding: 14px 127px 17px 135px;
+    padding: 14px 0;
     font-size: 14px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
@@ -38,7 +38,7 @@
     font-style: normal;
 }
 .listitem-free {
-    padding: 10px 123px 11px 131px;
+    padding: 10px 0;
     font-size: 14px;
     text-align: center;
     color: #86878B;
@@ -50,4 +50,11 @@
 }
 .listitem-free:last-child {
     margin-bottom: 0;
+}
+.wrap-price{
+    margin: 30px -15px 0;
+}
+.pricelist{
+    margin: 0 15px;
+    width: 340px;
 }

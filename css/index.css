@@ -4,6 +4,9 @@
 @import url(../css/pricing.css);
 @import url(../css/customers.css);
 @import url(../css/axure.css);
+@import url(../css/header.css);
+@import url(../css/social.css);
+@import url(../css/footer.css);
 * {
     margin: 0;
     padding: 0;
@@ -23,9 +26,6 @@
   }
   .wrap {
     margin-top: 68px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
   }
   .main-title::after {
     content: '';
@@ -50,5 +50,9 @@
 .description_white p {
   color: rgba(255, 255, 255, 0.8);
 }
-
+.wrap-navbar {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
   

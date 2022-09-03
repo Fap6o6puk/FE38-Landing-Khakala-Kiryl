@@ -1,0 +1,25 @@
+.footer {
+    background-color: #000000;
+  }
+  .wrap-footer {
+    padding: 30px 0 15px ;
+  }
+.social-list-footer {
+      margin: auto;
+      width: 317px;
+  }
+.social-list-footer i{
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+.footer-item:hover {
+    transform: scale(1.5);
+    }
+.copyright {
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}

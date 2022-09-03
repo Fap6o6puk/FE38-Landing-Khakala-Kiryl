@@ -1,0 +1,63 @@
+.social {
+    padding: 14px 0 14px;
+    background-color: #F8EFEF;
+  }
+  .wrap-social {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  .social-info {
+    width: 365px;
+  }
+  .social-info-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+  .social-info-text p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+  }
+  .social-list {
+    width: 684px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-list-item i{
+    font-size: 42px;
+    color: #CCCCCC;
+    transition: 0.2s;
+  }
+  .fa-facebook-f:hover {
+    transform: rotate(-180deg) scale(1.5);
+    color: #3B5998;
+  }
+  .fa-twitter:hover {
+    transform: rotate(-180deg) scale(1.5);
+    color: 	#55ACEE
+  }
+  .fa-google-plus-g:hover {
+    transform: rotate(-180deg) scale(1.5);
+    color: #DC4E41
+  }
+  .fa-pinterest:hover {
+    transform: rotate(-180deg) scale(1.5);
+    color: #BD081C
+  }
+  .fa-instagram:hover {
+    transform: rotate(-180deg) scale(1.5);
+    background: radial-gradient(circle at 30% 107%, #FDF497 0%, #FDF497 5%, #FD5949 45%, #D6249F 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .fa-stumbleupon:hover {
+    transform: rotate(-180deg) scale(1.5);
+    color: #EB4924
+  }
+  .fa-rss:hover {
+    transform: rotate(-180deg) scale(1.5);
+    color: #EE802F
+  }
